@@ -36,6 +36,7 @@ textItem = layerRef.TextItem
 textItem.Contents = "HELLO WORLD!"
 textItem.Position = (120, 120)
 ```
+
 # How to inspect scripting object properties?
 There's not a straight forward way, you need to read the documentation to understand what properties/attributes are available for a scripting object, or possibly a COM browser. For example, I've extracted the Python scripting object reference for Photoshop CC 2018 at [api_reference](https://github.com/lohriialo/photoshop-scripting-python/tree/master/api_reference)
 
